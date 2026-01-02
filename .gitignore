@@ -1,0 +1,20 @@
+# entorno virtual
+.venv/
+venv/
+env/
+
+# carpetas
+00_input/
+01_data/
+02_output/
+
+# Exceptuar los archivos .gitkeep si quieres que las carpetas aparezcan vacías
+!00_inputs/.gitkeep
+!01_data/.gitkeep
+!02_outputs/.gitkeep
+
+# Archivos temporales y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
