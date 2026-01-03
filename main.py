@@ -3,8 +3,8 @@ import os
 import sys
 
 # Definimos las rutas relativas a los scripts
-SCRIPT_ETL = os.path.join("scr", "01_etl_programacion.py")
-SCRIPT_BOT = os.path.join("scr", "03_bot_scraper.py")
+SCRIPT_ETL = os.path.join("src", "01_etl_programacion.py")
+SCRIPT_BOT = os.path.join("src", "03_bot_scraper.py")
 
 print("=================================================")
 print("🚀 INICIANDO SISTEMA DE AUTOMATIZACIÓN UPN")

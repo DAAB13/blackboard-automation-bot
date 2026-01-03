@@ -24,12 +24,12 @@ El sistema se organiza bajo una arquitectura modular para facilitar el mantenimi
 Transforma el archivo de programación desordenado en estructuras listas para el bot.
 
 * **Archivos Necesarios (Inputs):**
-    1.  `Panel Programación VERSIÓN 6.xlsx`: El script busca este maestro en OneDrive y crea una copia en `00_inputs/`.
+    1.  `PANEL DE PROGRAMACIÓN V7.xlsx`: El script busca este maestro en OneDrive y crea una copia en `00_inputs/`.
     2.  `base_maestra_ids.xlsx`: Generado por el script 02, ubicado en `01_data/`.
 * **Productos Generados (Outputs):**
     1.  **`supervisar_clases.xlsx`**: Tu agenda diaria con tablas y filtros profesionales (en `01_data/`).
     2.  **`resumen_con_llave.xlsx`**: Mapa simplificado y filtrado para que el bot trabaje a máxima velocidad (en `01_data/`).
-    3.  **`Reporte_Alertas.xlsx`**: Aviso sobre inconsistencias de nombres o docentes (en `02_outputs/`).
+    3.  **`reporte_alertas.xlsx`**: Aviso sobre inconsistencias de nombres o docentes (en `02_outputs/`).
 
 ### 2. `02_mapa_llave.py` (El "Cerrajero" Digital)
 Obtiene las credenciales técnicas necesarias para la navegación.

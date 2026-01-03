@@ -13,7 +13,7 @@ DIR_INPUTS = os.path.join(BASE_DIR, "00_inputs")
 DIR_DATA = os.path.join(BASE_DIR, "01_data")
 DIR_OUTPUTS = os.path.join(BASE_DIR, "02_outputs")
 
-NOMBRE_ARCHIVO_PROG = "Panel Programación VERSIÓN 6.xlsx"
+NOMBRE_ARCHIVO_PROG = "PANEL DE PROGRAMACIÓN V7.xlsx"
 RUTA_ORIGEN_ONEDRIVE = fr"C:\Users\Diego AB\OneDrive - EduCorpPERU\POSGRADO-EPEC - Panel de Control Integrado\{NOMBRE_ARCHIVO_PROG}"
 RUTA_TRABAJO_LOCAL = os.path.join(DIR_INPUTS, NOMBRE_ARCHIVO_PROG)
 
@@ -44,7 +44,7 @@ else:
 print("\n>>> Paso 2: Ejecutando lógica de limpieza...")
 
 try:
-    df_total = pd.read_excel(RUTA_TRABAJO_LOCAL, sheet_name='Programación', header=1, engine='openpyxl')
+    df_total = pd.read_excel(RUTA_TRABAJO_LOCAL, sheet_name='PROGRAMACIÓN', header=1, engine='openpyxl')
 
     columnas_interes = ['SOPORTE', 'CURSO', 'PERIODO', 'NRC', 'DOCENTE', 'SESIÓN', 'FECHAS', 'Hora inicio', 'ESTADO DE CLASE']
     cols_existentes = [c for c in columnas_interes if c in df_total.columns] # filtro de seguridad para q no se rompa por si se cambia el nombre de una columna
