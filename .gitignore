@@ -1,0 +1,12 @@
+# Ignorar perfil de navegador (MUY IMPORTANTE)
+00_inputs/chrome_profile/
+chrome_profile/
+
+# Ignorar datos sensibles y reportes
+01_data/
+02_outputs/
+*.xlsx
+
+# Ignorar entorno virtual
+.venv/
+__pycache__/
